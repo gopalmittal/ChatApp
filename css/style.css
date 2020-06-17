@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(white,purple);
+}
+h1{
+    text-align: center;
+      font-family: cursive;
+}
+
+#logo{
+    display: block;
+    margin:0px auto;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.container{
+    margin: 20px auto;
+    padding: 33px;
+    max-width: 700px;
+    height: 400px;
+    background-color: rgba(128, 163, 240, 0.404);
+    border: 2px solid black;
+    border-radius: 4px;
+    overflow-y: auto;
+    
+}
+.message{
+    background-color:grey;
+    padding: 6px;
+    margin: 10px 1px;
+    color:rgb(0, 0, 0);
+    max-width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.left{
+       float: left;
+       clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+
+}
+#frm{ 
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#inputtxt{
+    font-size: 25px;
+    max-width: 300px;
+    min-height: 30px; 
+}
+.btn{
+    cursor: pointer;
+    border:  2px solid black;
+    padding: 4px;
+}
